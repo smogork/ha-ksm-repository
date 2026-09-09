@@ -1,6 +1,6 @@
 name: "User Gateway"
 description: "It runs a tailscale client and connects it with NGINX to provide secure access from the internet (mTLS)"
-version: "v0.2.0"
+version: "v0.2.1"
 slug: "user_gateway"
 arch:
   - aarch64
