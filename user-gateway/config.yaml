@@ -6,13 +6,10 @@ arch:
   - aarch64
   - amd64
 init: false
-startup: application
-boot: auto
 url: 'https://github.com/smogork/ha-ksm-repository'
 image: "harbor.smoczapiwnica.pl/ha-ksm/user-gateway:{arch}"
 ports:
   80/tcp: 80
-host_network: false
 options:
   auth_key: "tskey-auth-kavm6CLguX11CNTRL-ShusH6J3K87tnxTCrL7H97QD6c5XFpGW2" # Single use
   cert_domain: "homeassistant.your-subdomain.ts.net"
