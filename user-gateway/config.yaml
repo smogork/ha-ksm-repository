@@ -7,7 +7,7 @@ arch:
   - amd64
 init: false
 url: 'https://github.com/smogork/ha-ksm-repository'
-image: "harbor.smoczapiwnica.pl/ha-ksm/user-gateway:{arch}"
+image: "harbor.smoczapiwnica.pl/ha-ksm/user-gateway:v0.2.0"
 ports:
   80/tcp: 80
 options:
